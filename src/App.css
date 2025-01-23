@@ -1,0 +1,74 @@
+/* src/App.css */
+
+/* CSS Variables for Theming */
+:root {
+  --navbar-bg: #bebe13;
+  --navbar-text: #333333;
+  --navbar-hover: #007bff;
+  --background-color: #7ef6f6;
+  --text-color: #333333;
+}
+
+body.dark-mode {
+  --navbar-bg: #333333;
+  --navbar-text: #ffffff;
+  --navbar-hover: #ffd700;
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Page Container */
+.page-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 1rem;
+  color: var(--navbar-hover);
+}
+
+h3 {
+  margin-top: 1.5rem;
+  color: var(--navbar-text);
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: var(--navbar-hover);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Styling as Needed */

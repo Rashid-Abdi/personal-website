@@ -1,0 +1,146 @@
+/* src/components/Navbar.css */
+
+/* Dark vs Light theme variables */
+.navbar-dark {
+  --navbar-bg: #333333;
+  --navbar-text: #ffffff;
+  --navbar-hover: #ffd700;
+}
+
+.navbar-light {
+  --navbar-bg: #8ec8f2;
+  --navbar-text: #333333;
+  --navbar-hover: #dde679;
+}
+
+/* Overall Header Styles */
+.navbar-header {
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  padding: 1.5rem 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for top and bottom rows */
+.navbar-container {
+  display: flex;
+  flex-direction: column; /* Stack top row over bottom row */
+  gap: 1rem; /* Vertical spacing between rows */
+}
+
+/* TOP ROW: brand on left, contact info on right */
+.top-row,
+.bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand Name */
+.navbar-brand a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Contact Info (right side of top row) */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+  color: var(--navbar-hover);
+}
+
+/* BOTTOM ROW: nav links (left/center), theme toggle (right) */
+.bottom-row {
+  border-top: 1px solid rgba(0, 0, 0, 0.2); /* Light divider if desired */
+  padding-top: 1rem;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  /* If you want them centered, add margin: 0 auto; or uncomment: */
+  /* margin: 0 auto; */
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0.25rem 0;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--navbar-hover);
+}
+
+/* Active link styling */
+.nav-link.active {
+  color: var(--navbar-hover);
+  font-weight: 700;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--navbar-hover);
+}
+
+/* Theme Toggle (right side of bottom row) */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--navbar-hover);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-header {
+    padding: 1rem 2rem;
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Wrap nav links if screen is narrow */
+  }
+}

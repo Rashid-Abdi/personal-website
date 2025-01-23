@@ -1,0 +1,25 @@
+/* src/pages/Education.css */
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--navbar-hover);
+  }
+  
+  .profile-details {
+    max-width: 600px;
+  }
+  
+  .profile-details p {
+    margin-bottom: 1rem;
+  }
+  
