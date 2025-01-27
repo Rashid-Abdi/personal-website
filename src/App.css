@@ -3,16 +3,16 @@
 /* CSS Variables for Theming */
 :root {
   --navbar-bg: #bebe13;
-  --navbar-text: #333333;
+  --navbar-text: #e2e3d2;
   --navbar-hover: #ffd700f;
   --background-color: #2F4F4F;
-  --text-color: #ffd700;
+  --text-color: #e2e3d2;
 }
 
 body.dark-mode {
   --navbar-bg: #333333;
   --navbar-text: #ffffff;
-  --navbar-hover: #ffd700;
+  --navbar-hover: #ffffff;
   --background-color: #121212;
   --text-color: #ffffff;
 }

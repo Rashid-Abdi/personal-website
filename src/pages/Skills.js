@@ -8,7 +8,7 @@ function Skills() {
       <h2>Skills</h2>
       <ul>
         <li>
-          <strong>Languages:</strong> Python, Java, C#, HTML/CSS
+          <strong>Languages:</strong> Python, Java, JavaScript, Swift, HTML/CSS
         </li>
         <li>
           <strong>Tools & Frameworks:</strong> Git, React, VS Code, R-Studio,
