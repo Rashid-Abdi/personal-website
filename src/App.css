@@ -4,9 +4,9 @@
 :root {
   --navbar-bg: #bebe13;
   --navbar-text: #333333;
-  --navbar-hover: #007bff;
-  --background-color: #7ef6f6;
-  --text-color: #333333;
+  --navbar-hover: #ffd700f;
+  --background-color: #2F4F4F;
+  --text-color: #ffd700;
 }
 
 body.dark-mode {
