@@ -38,7 +38,7 @@ function Navbar() {
             <a href="tel:+16124436685" className="contact-item">
               <FontAwesomeIcon icon={faPhone} /> (612) 443-6685
             </a>
-            <a href="mailto:Abdi12@augsburg.edu" className="contact-item">
+            <a href="mailto:Abdia12@augsburg.edu" className="contact-item">
               <FontAwesomeIcon icon={faEnvelope} /> Abdia12@augsburg.edu
             </a>
             <span className="contact-item">
