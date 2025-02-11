@@ -20,11 +20,11 @@ function Experience() {
           <p>Aug 2024 – Present</p>
           <ul>
             <li>
-              Diagnose, troubleshoot, and resolve an average of 30+ hardware/software
+              Diagnose, troubleshoot, and resolve an average of 15+ hardware/software
               issues daily.
             </li>
             <li>
-              Perform virus scans, OS repairs, and device configurations on 50+
+              Perform virus scans, OS repairs, and device configurations on 30+
               devices weekly.
             </li>
             <li>
