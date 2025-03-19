@@ -17,19 +17,18 @@ function Experience() {
           className="company-logo"
         />
         <div className="experience-details">
-          <h3>Geek Squad, Minnetonka, MN — Advanced Repair Agent</h3>
+          <h3>Geek Squad, Minnetonka, MN — Consultation Agent</h3>
           <p>Aug 2024 – Present</p>
           <ul>
             <li>
-            Provided tailored technical support by diagnosing and troubleshooting hardware, software, and network issues, ensuring effective solutions for diverse customer needs.
+            Provide tailored technical support by diagnosing and troubleshooting hardware, software, and network issues, ensuring effective solutions for diverse customer needs.
             </li>
             <li>
-              Assist customers with data transfers, device setup, and system
-              optimization.
+              Assist customers with data transfers, device setups, and system
+              optimizations.
             </li>
             <li>
-              Perform virus scans, OS repairs, and device configurations on 30+
-              devices weekly.
+              Perform functionality inspections, resets and operating system repairs for various devices.
             </li>
             
           </ul>
