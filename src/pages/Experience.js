@@ -8,6 +8,7 @@ function Experience() {
     <div className="page-container">
       <h2>Professional Experience</h2>
 
+      
       {/* Geek Squad Experience */}
       <div className="experience-item">
         <img
