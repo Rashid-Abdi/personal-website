@@ -23,7 +23,7 @@ function Education() {
             Cumulative GPA: 3.87
           </p>
           <p>
-            <strong>Core Classes:</strong> Introduction to Python, Java Object-Oriented
+            <strong>Core Classes:</strong> Python, Java Object-Oriented
             Programming, Data Science with R, Data Structures, Algorithms, Software Design & Developement, and Mobile Computing
           </p>
         </div>

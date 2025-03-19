@@ -3,10 +3,10 @@
 /* CSS Variables for Theming */
 :root {
   --navbar-bg: #bebe13;
-  --navbar-text: #e2e3d2;
+  --navbar-text: black;
   --navbar-hover: #ffd700f;
-  --background-color: #2F4F4F;
-  --text-color: #e2e3d2;
+  --background-color: #E5E1DA;
+  --text-color: black;
   
 }
 

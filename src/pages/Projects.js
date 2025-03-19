@@ -21,7 +21,7 @@ function Projects() {
         </a>
       </div>
 
-      {/* Project 1 */}
+      {/* personal wesbite */}
       <div className="project">
         <h3>Personal Website — React, JavaScript, HTML/CSS</h3>
         <ul>
@@ -34,7 +34,7 @@ function Projects() {
         </ul>
       </div>
 
-      {/* Project 2 */}
+      {/* student management system */}
       <div className="project">
         <h3>Student Management System — Java, OOP, Sorting & Searching Algorithms</h3>
         <ul>
@@ -49,19 +49,16 @@ function Projects() {
           </li>
         </ul>
       </div>
-
-      {/* Project 3 */}
+      {/*Match Game*/}
       <div className="project">
-        <h3>Unity Games — C#</h3>
+        <h3>Match Game — React, JavaScript, HTML/CSS</h3>
         <ul>
-          <li>
-            Implemented C# scripts for movement, obstacle generation, collision detection.
-          </li>
-          <li>
-            Integrated 2D assets and animations for a smooth experience.
-          </li>
+          <li>A dynamic, interactive memory match game built entirely with React, designed to showcase component-based architecture and modern front-end development practices. </li>
+          <li>Utilized React Hooks (e.g., useState and useEffect) to manage game state, including card flips, matching logic, and score tracking.</li>
+          <li>Implemented smooth animations for card flips and responsive design to provide an engaging user experience across devices.</li>
         </ul>
       </div>
+
     </div>
   );
 }

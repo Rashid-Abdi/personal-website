@@ -11,8 +11,7 @@ function Skills() {
           <strong>Languages:</strong> Python, Java, JavaScript, Swift, HTML/CSS
         </li>
         <li>
-          <strong>Tools & Frameworks:</strong> Git, React, VS Code, R-Studio,
-          Microsoft Office
+          <strong>Tools & Frameworks:</strong> Git, React, VS Code, Xcode
         </li>
         <li>
           <strong>Soft Skills:</strong> Customer Service, Tutoring,

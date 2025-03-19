@@ -20,17 +20,17 @@ function Experience() {
           <p>Aug 2024 – Present</p>
           <ul>
             <li>
-              Diagnose, troubleshoot, and resolve an average of 15+ hardware/software
-              issues daily.
-            </li>
-            <li>
-              Perform virus scans, OS repairs, and device configurations on 30+
-              devices weekly.
+            Provided tailored technical support by diagnosing and troubleshooting hardware, software, and network issues, ensuring effective solutions for diverse customer needs.
             </li>
             <li>
               Assist customers with data transfers, device setup, and system
               optimization.
             </li>
+            <li>
+              Perform virus scans, OS repairs, and device configurations on 30+
+              devices weekly.
+            </li>
+            
           </ul>
         </div>
       </div>
@@ -46,6 +46,8 @@ function Experience() {
           <h3>Augsburg University, Minneapolis, MN — Student Instructor</h3>
           <p>Jan 2024 – Present</p>
           <ul>
+            <li>Provided targeted peer support and resources to students tackling computer science assignments, offering one-on-
+            one guidance and clarifying complex topics to boost understanding and confidence.</li>
             <li>
               Provide one-on-one instruction to 30 students in computer science labs
               (Python & Java).
