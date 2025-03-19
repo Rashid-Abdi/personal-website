@@ -8,7 +8,7 @@ function Experience() {
     <div className="page-container">
       <h2>Professional Experience</h2>
 
-      
+
       {/* Geek Squad Experience */}
       <div className="experience-item">
         <img
@@ -72,13 +72,15 @@ function Experience() {
           <p>Aug 2020 – Jan 2024</p>
           <ul>
             <li>
-              Led a team of 15 associates to ensure efficient front-end operations.
+              Supervised a team of 15 associates, streamlining front-end operations and consistently surpassing service goals
+and metrics.
             </li>
             <li>
               Handled order issues, reducing processing delays by 40%.
             </li>
             <li>
-              Maintained highest customer satisfaction scores in the district.
+            Achieved the district’s highest customer satisfaction rating by maintaining the largest share of 100% satisfaction
+            surveys.
             </li>
           </ul>
         </div>
