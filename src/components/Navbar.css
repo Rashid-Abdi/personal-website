@@ -1,16 +1,24 @@
 /* src/components/Navbar.css */
 
 /* Dark vs Light theme variables */
+.navbar{
+  position: relative; /* or fixed, if you want it pinned to the top */
+  z-index: 999;       /* ensure it's above a background of z-index -1 */
+  background-color: #333; /* or something contrasting your background animation */
+  color: #fff;
+}
 .navbar-dark {
   --navbar-bg: #333333;
   --navbar-text: #ffffff;
   --navbar-hover: #ffd700;
+  position: relative;
 }
 
 .navbar-light {
   --navbar-bg: #B3C8CF;
   --navbar-text: #333333;
   --navbar-hover: #ffd700;
+  position: relative;
 }
 
 /* Overall Header Styles */

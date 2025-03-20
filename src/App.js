@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 // Importing individual pages
+import Home from "./pages/Home"
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
@@ -18,7 +19,8 @@ function App() {
 
       {/* Define routes for each page */}
       <Routes>
-        <Route path="/" element={<Education />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />

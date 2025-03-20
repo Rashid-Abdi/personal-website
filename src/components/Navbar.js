@@ -58,8 +58,13 @@ function Navbar() {
         {/* BOTTOM ROW: Centered Nav Links, Theme Toggle (Right) */}
         <div className="bottom-row">
           <ul className="nav-links">
-            <li>
+          <li>
               <NavLink to="/" end className="nav-link">
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/education" end className="nav-link">
                 Education
               </NavLink>
             </li>
