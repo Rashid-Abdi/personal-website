@@ -33,6 +33,15 @@ function Projects() {
           </li>
         </ul>
       </div>
+      {/* iOS app*/ }
+      <div className="project">
+        <h3>Book Sharing iOS App — Swift, MySQL, Node.js</h3>
+        <ul>
+          <li>Designed and developing a Swift-based iOS application that enables users to share and claim books within a community </li>
+          <li>Integrated a MySQL database to store and update book listings in real-time when new books are added or claimed.</li>
+          <li>Built responsive UI components to display available books, user profiles, and claimed status using Swift UI.</li>
+        </ul>
+      </div>
 
       {/* student management system */}
       <div className="project">
@@ -58,6 +67,8 @@ function Projects() {
           <li>Implemented smooth animations for card flips and responsive design to provide an engaging user experience across devices.</li>
         </ul>
       </div>
+
+      
 
     </div>
   );
