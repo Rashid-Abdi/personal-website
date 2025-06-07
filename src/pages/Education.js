@@ -20,7 +20,7 @@ function Education() {
             <strong>BS: Computer Science & Mathematics</strong> <br />
             Augsburg University, Minneapolis, MN <br />
             Graduation: Dec 2026 <br />
-            Cumulative GPA: 3.87
+            Cumulative GPA: 3.9
           </p>
           <p>
             <strong>Core Classes:</strong> Python, Java Object-Oriented
