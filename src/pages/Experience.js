@@ -8,7 +8,30 @@ function Experience() {
     <div className="page-container">
       <h2>Professional Experience</h2>
 
-
+      {/* Best Buy Experience */}
+      <div className="experience-item">
+        <img
+          src="/BestBuyLogo.jpg"
+          alt="Best Buy Logo"
+          className="company-logo"
+        />
+        <div className="experience-details">
+          <h3>Best Buy, Richfield, MN — Software Engineering Intern</h3>
+          <p>June 2025 – Present</p>
+          <ul>
+            <li>
+              Designed and maintained backend APIs using Java, Spring, and PostgreSQL to integrate internal systems with third-party platforms for e-commerce order processing.
+            </li>
+            <li>Increased code reliability and test coverage by 25% through comprehensive unit testing with Groovy and Spock.
+            </li>
+            <li>
+            Implemented structured logging with SLF4J and integrated logs into Splunk to enable effective monitoring and debugging of backend workflows.
+            </li>
+            <li>Deployed and managed services on AWS EC2 using CI/CD pipelines, ensuring high availability, scalability, and performance observability.</li>
+            
+          </ul>
+        </div>
+      </div>
       {/* Geek Squad Experience */}
       <div className="experience-item">
         <img
