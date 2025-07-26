@@ -11,11 +11,11 @@ function Skills() {
           <strong>Languages:</strong> Python, Java, JavaScript, Swift, HTML/CSS
         </li>
         <li>
-          <strong>Tools & Frameworks:</strong> Git, React, VS Code, Xcode
+          <strong>Tools & Frameworks:</strong> Spring Boot, React, MySQL, Git, IntelliJ, VSCode
         </li>
         <li>
-          <strong>Soft Skills:</strong> Customer Service, Tutoring,
-          Communication, Problem Solving, Tech Support
+          <strong>Soft Skills:</strong>
+          Customer Service, Communication, Problem Solving, Adaptability, Tech Support
         </li>
       </ul>
     </div>
